@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        section {
+            
+            display: flex;
+            padding: 30px;
+            height: 60vh;
+            width: 100vb;
+            margin-left: 30%;
+            border: 2px solid #000;
+            border-radius: 20px;
+            background-image: linear-gradient(to right, #7b61ffcb, #ff4d94bd);
+            flex-direction: column;
+            align-items: center;
+            margin-top: 12%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2em;
+            
+        }
+        table {
+           background-color: transparent;
+            margin:auto;
+            text-align: center;
+            
+            align-items: center;
+            border-collapse: collapse;
+            width: 50%;
+            font-size: 80%;
+            
+        }
+        label{
+         
+            margin-top: 15px;
+            
+        }
+         input{
+            padding: 5px;
+            border-radius: 10px;
+            margin-top: 10px;
+            
+        }
+        button{
+            background-color: aqua;
+            padding: 5px 20px ;
+            border-radius: 30px;
+            margin-top: 15px;
+            
+            
+        }
+        button:hover{
+            background-image: linear-gradient(to right, #7b61ff, #ff4d94);
+            font-weight: bold;
+            color: #070708  ;
+            
+        }
+        
+        a{
+            height: auto;
+            width: auto;
+            background-color: transparent;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 0.6em;
+            margin-top: 10px;
+            padding: 3px;
+            outline: solid yellowgreen ;
+            background-color: #ff4d94;
+            border-radius: 30px;
+
+        }
+        a:hover{
+            color: #f9f9ff  ;
+            text-decoration: none;
+           background-image: linear-gradient(to right, #7b61ff, #ff4d94);
+            font-weight: bold;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>Thank You For Choosing  Us</p>
+        <table  >
+            <form action="">
+                <tr>
+                <td><label for="name">Full Name: </label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your full name " ></td>
+                </tr>
+            <tr >
+                <td><label for="email">Username: </label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email " ></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone No:</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="Enter your phone number" ></td>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password" ></td>
+              
+            </tr>
+            <tr>
+                  <td><label for="confirm">Re-Enter:</label></td>
+                <td><input type="password" id="password" name="confirm" placeholder="Re-Enter your password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <form action="./index.html">
+                        <button type="submit" formaction="index.html">Register</button>
+                </td>
+            </tr>
+            </form>
+                
+            
+        </table>
+          <p> Old User ?</p>
+                <a href="login.html">Login Here</a>
+    </section>
+
+</body>
+</html>
